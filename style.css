@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #474747;
+}
+
+nav{
+    width: 100%;
+    height: 90px;
+    border-bottom:  5px  solid #474747;
+    box-shadow: 0px 3px 5px #24852a;
+    margin-bottom: 3rem;
+}
+
+.menu{
+    width: 80vw;
+    margin: auto;
+    padding: 30px 5px 0 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    background-color: #24852a;
+    color: white;
+    width: 100px;
+    border-style: none;
+    font-weight: 600;
+}
+
+.container{
+    width: 80vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem ;
+}
+.card{
+    margin-bottom: 1rem;
+    border: solid 5px #e9e9e9;
+    background-color: #f5f4f4;
+}
+
+.photo{
+    height: 35vw;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.title{
+    padding: 1rem;
+}
+.title span{
+    font-size: 0.8rem;
+} 
+
+
+   
